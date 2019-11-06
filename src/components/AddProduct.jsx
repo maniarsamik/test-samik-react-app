@@ -37,13 +37,13 @@ class AddProduct extends Component {
           <div class="col-xl-8 mx-auto text-center">
             <div class="section-title">
               <h2>Car sales</h2>
-              <p>Buy car online</p>
+              <p>Buy or Sell car online</p>
             </div>
           </div>
         </div>
         <div className="form-group d-flex">
           <input type="text" ref="itemName" className="form-control" placeholder="add a new todo..." />
-          <button onClick={this.handleClick} type="submit" className="btn btn-success ml-3">Add</button>
+          <button onClick={this.handleClick} type="submit" className="btn btn-success ml-3 add-cart-btn">Add to Cart</button>
         </div>
         <table className="table table-striped table-bordered">
           <thead>
