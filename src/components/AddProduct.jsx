@@ -45,10 +45,13 @@ class AddProduct extends Component {
           <input type="text" ref="itemName" className="form-control" placeholder="add a new todo..." />
           <button onClick={this.handleClick} type="submit" className="btn btn-success ml-3 add-cart-btn">Add to Cart</button>
         </div>
+        <div className="container">
+          <h4 className="float-right mb-3">Total count = {this.state.data.length}</h4>
+        </div>
         <table className="table table-striped table-bordered">
           <thead>
             <tr>
-              <th scope="col">Car name</th>
+              <th scope="col">Car Product list name</th>
               <th scope="col">Remove</th>
             </tr>
           </thead>
