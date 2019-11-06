@@ -15,9 +15,6 @@ class AddProduct extends Component {
     const newArray = this.state.data.slice(); // Create a copy
     newArray.push(obj); // Push the object
     this.setState({ data: newArray });
-    console.log(this.state.data);
-    console.log(this.refs.itemName.value);
-    console.log('test msg...');
   }
   onClickClose(d) {
     const list = this.state.data;
@@ -33,9 +30,9 @@ class AddProduct extends Component {
     );
     return (
       <div className="container">
-        <div class="row">
-          <div class="col-xl-8 mx-auto text-center">
-            <div class="section-title">
+        <div className="row">
+          <div className="col-xl-8 mx-auto text-center">
+            <div className="section-title">
               <h2>Car sales</h2>
               <p>Buy or Sell car online</p>
             </div>
