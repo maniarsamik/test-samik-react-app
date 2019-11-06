@@ -42,7 +42,7 @@ class AddProduct extends Component {
           </div>
         </div>
         <div className="form-group d-flex">
-          <input type="text" ref="itemName" className="form-control" placeholder="add a new car name..." />
+          <input type="text" ref="itemName" className="form-control" placeholder="add a new car name to product list..." />
           <button onClick={this.handleClick} type="submit" className="btn btn-success ml-3 add-cart-btn">Add to Cart</button>
         </div>
         <div className="container">
